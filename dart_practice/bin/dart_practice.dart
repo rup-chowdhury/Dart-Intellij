@@ -86,11 +86,17 @@ void main(){
 
 
   //inserting in list
-  var numbers = {1, 2, 3, 4, 5, 6};
+  var numbers = [1, 2, 3, 4, 5, 6];
 
   numbers.add(7);   //Add single item at the end of the list
   print(numbers);
 
   numbers.addAll([8,9,10]);   //Add multiple item at the end of the list
+  print(numbers);
+
+  numbers.insert(3, 546);  // Insert single value in specific index of the list
+  print(numbers);
+
+  numbers.insertAll(5, [22, 10, 19]);
   print(numbers);
 }
