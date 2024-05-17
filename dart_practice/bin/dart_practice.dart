@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 void main(){
 
   var x = 40;
@@ -71,5 +73,14 @@ void main(){
 
   print(cityList.reversed);
 
+  // list modification
+  cityList.add('Narsingdi');
+
+  print(cityList);
+
+  //fixed list
+  const bigCityList = ["Dhaka", "Rajshahi", "Jessore", "Chattagram"];
+  print(bigCityList);
   
+  //bigCityList.add("Sylhet");
 }
