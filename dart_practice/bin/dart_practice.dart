@@ -15,5 +15,7 @@ void main(){
 
   var student = {'name' : 'Rup', 'age' : 24, 'address' : 'Motijheel'};
 
-  print(student);
+  print(student['name']);
+  print(student['age']);
+  print(student['address']);
 }
