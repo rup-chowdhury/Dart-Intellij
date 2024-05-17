@@ -15,10 +15,27 @@ void main(){
 
   var student = {'name' : 'Rup', 'age' : 24, 'address' : 'Motijheel'};
 
+//Arithmetic operator
 
   print(x+y);
   print(x-y);
   print(x*y);
   print(x/y);
   print(x%y);
+
+
+// Unary operator
+
+  var a = 25;
+  var b = 20;
+  var c = 15;
+  var d = 30;
+
+  print(a++);
+
+  print(++b);
+
+  print(c--);
+
+  print(--d);
 }
