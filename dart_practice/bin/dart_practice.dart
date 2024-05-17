@@ -1,7 +1,7 @@
 void main(){
 
-  var x = 40.45;
-  var y = 30.65;
+  var x = 40;
+  var y = 7;
 
   var z = x + y;
 
@@ -15,7 +15,10 @@ void main(){
 
   var student = {'name' : 'Rup', 'age' : 24, 'address' : 'Motijheel'};
 
-  print(student['name']);
-  print(student['age']);
-  print(student['address']);
+
+  print(x+y);
+  print(x-y);
+  print(x*y);
+  print(x/y);
+  print(x%y);
 }
