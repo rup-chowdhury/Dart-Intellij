@@ -81,9 +81,8 @@ void main(){
   //fixed list
   const bigCityList = ["Dhaka", "Rajshahi", "Jessore", "Chattagram"];
   print(bigCityList);
-  
-  //bigCityList.add("Sylhet");
 
+  //bigCityList.add("Sylhet");
 
   //inserting in list
   var numbers = [1, 2, 3, 4, 5, 6];
@@ -97,6 +96,6 @@ void main(){
   numbers.insert(3, 546);  // Insert single value in specific index of the list
   print(numbers);
 
-  numbers.insertAll(5, [22, 10, 19]);
+  numbers.insertAll(5, [22, 10, 19]);  //Insert multiple items
   print(numbers);
 }
