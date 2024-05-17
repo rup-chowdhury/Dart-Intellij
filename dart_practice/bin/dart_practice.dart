@@ -38,4 +38,22 @@ void main(){
   print(c--);
 
   print(--d);
+  
+  
+// Constant values 
+
+  var thisYear = 2024;  // this is a variable. So, it can be modified
+  
+  ++thisYear;
+  
+  print(thisYear);
+
+
+  const nextYear = 2025;    // these are final values. Once they are declared, they can not be changed
+
+  final previousYear = 2023;
+
+
+
+  print(nextYear);
 }
