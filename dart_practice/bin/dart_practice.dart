@@ -65,8 +65,11 @@ void main(){
   
   print(cityList.isNotEmpty);
 
+  print(cityList.isEmpty);
+
   print(cityList.last);
 
   print(cityList.reversed);
 
+  
 }
