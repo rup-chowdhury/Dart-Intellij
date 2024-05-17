@@ -13,5 +13,7 @@ void main(){
   var cityList = ['Dhaka', 'Khulna', 'Rangpur', 'Bogura'];
 
 
-  print(cityList[1]);
+  var student = {'name' : 'Rup', 'age' : 24, 'address' : 'Motijheel'};
+
+  print(student);
 }
