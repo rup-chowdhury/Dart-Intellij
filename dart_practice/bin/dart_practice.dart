@@ -13,5 +13,5 @@ void main(){
   var cityList = ['Dhaka', 'Khulna', 'Rangpur', 'Bogura'];
 
 
-  print(cityList);
+  print(cityList[1]);
 }
