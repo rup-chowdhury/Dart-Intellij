@@ -10,7 +10,6 @@ void main(){
 
   var isBangladeshi = true;
 
-  var cityList = ['Dhaka', 'Khulna', 'Rangpur', 'Bogura'];
 
 
   var student = {'name' : 'Rup', 'age' : 24, 'address' : 'Motijheel'};
@@ -38,14 +37,14 @@ void main(){
   print(c--);
 
   print(--d);
-  
-  
-// Constant values 
+
+
+// Constant values
 
   var thisYear = 2024;  // this is a variable. So, it can be modified
-  
+
   ++thisYear;
-  
+
   print(thisYear);
 
 
@@ -53,7 +52,21 @@ void main(){
 
   final previousYear = 2023;
 
-
-
   print(nextYear);
+
+  //list
+  var cityList = ['Dhaka', 'Khulna', 'Rangpur', 'Bogura'];
+
+
+  //list properties
+  print(cityList.length);
+
+  print(cityList.first);
+  
+  print(cityList.isNotEmpty);
+
+  print(cityList.last);
+
+  print(cityList.reversed);
+
 }
