@@ -83,4 +83,14 @@ void main(){
   print(bigCityList);
   
   //bigCityList.add("Sylhet");
+
+
+  //inserting in list
+  var numbers = {1, 2, 3, 4, 5, 6};
+
+  numbers.add(7);   //Add single item at the end of the list
+  print(numbers);
+
+  numbers.addAll([8,9,10]);   //Add multiple item at the end of the list
+  print(numbers);
 }
