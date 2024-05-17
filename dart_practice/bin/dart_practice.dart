@@ -10,5 +10,8 @@ void main(){
 
   var isBangladeshi = true;
 
-  print(isBangladeshi);
+  var cityList = ['Dhaka', 'Khulna', 'Rangpur', 'Bogura'];
+
+
+  print(cityList);
 }
