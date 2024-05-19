@@ -9,4 +9,5 @@ main() {
   print(50+12);
   print(42-12);
   print(12*5);
+  print(50/6);
 }
