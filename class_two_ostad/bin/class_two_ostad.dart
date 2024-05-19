@@ -15,8 +15,8 @@ main() {
   //Primitive Data Types
   // String, Integer, Double, Boolean
 
-  print('Hello');
-  print("Hello");
-  print('''Hello''');
+  print('He \' llo');
+  print("He \" llo");
+  print('''He '  " llo''');
   
 }
