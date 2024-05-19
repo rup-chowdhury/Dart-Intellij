@@ -8,4 +8,5 @@ main() {
 
   print(50+12);
   print(42-12);
+  print(12*5);
 }
