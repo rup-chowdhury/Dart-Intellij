@@ -19,4 +19,6 @@ main() {
   print("He \" llo");
   print('''He '  " llo''');
   
+  print(12345);
+  
 }
