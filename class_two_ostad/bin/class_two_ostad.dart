@@ -5,4 +5,6 @@ main() {
 
   // An unnecessary comment
   /* An unnecessary multiline comment*/
+
+  print(50+12);
 }
