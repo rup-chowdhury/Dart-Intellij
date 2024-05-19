@@ -3,5 +3,6 @@ main() {
   print(12345);
   print(3.1416);
 
-  // An unnecessary comment 
+  // An unnecessary comment
+  /* An unnecessary multiline comment*/
 }
