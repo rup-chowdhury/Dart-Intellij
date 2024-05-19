@@ -7,4 +7,5 @@ main() {
   /* An unnecessary multiline comment*/
 
   print(50+12);
+  print(42-12);
 }
