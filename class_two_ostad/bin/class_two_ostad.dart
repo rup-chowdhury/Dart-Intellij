@@ -20,5 +20,38 @@ main() {
   print('''He '  " llo''');
   
   print(12345);
+
+
+  print(3.1416);
+
+
+  // use runtimeType to know data type
+  
+  print(1232.runtimeType);
+  
+  print(3.1416.runtimeType);
+
+
+  // Variable
+
+  String userName = "Rup Chowdhury";
+
+  print(userName);
+
+  int age = 25;
+
+  print(age);
+
+  double cgpa = 3.91;
+
+  print(cgpa);
+
+  bool isHuman = true;
+
+  print(isHuman);
+
+
+
+
   
 }
