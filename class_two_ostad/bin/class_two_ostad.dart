@@ -10,4 +10,13 @@ main() {
   print(42-12);
   print(12*5);
   print(50/6);
+
+
+  //Primitive Data Types
+  // String, Integer, Double, Boolean
+
+  print('Hello');
+  print("Hello");
+  print('''Hello''');
+  
 }
