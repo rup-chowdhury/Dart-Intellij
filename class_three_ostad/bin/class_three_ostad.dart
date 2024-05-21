@@ -29,4 +29,21 @@ main() {
 
   print(studentList);
 
+  studentList.insertAll(2, ['new element 2', 'new element 3']);
+
+  print(studentList);
+
+  studentList.removeAt(2);
+
+  print(studentList);
+
+
+  Set<String> students = {};
+  students.add('Rakib');
+  students.add('Sakib');
+  students.add('tamim');
+  students.add('Rakib');
+  students.add('Noor');
+
+  print(students);
 }
