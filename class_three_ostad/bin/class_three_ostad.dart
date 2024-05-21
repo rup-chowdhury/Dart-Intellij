@@ -50,4 +50,16 @@ main() {
   students.addAll({'tamim', 'Jalil'});
 
   print(students);
+
+  print(students.elementAt(3));
+
+  Map<int, String> maps = {
+    1 : 'r',
+    20 : 'l',
+    3 : 'k',
+    4 : 'm'};
+
+  print(maps);
+
+  print(maps[3]);
 }
