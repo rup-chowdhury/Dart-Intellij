@@ -46,4 +46,8 @@ main() {
   students.add('Noor');
 
   print(students);
+
+  students.addAll({'tamim', 'Jalil'});
+
+  print(students);
 }
