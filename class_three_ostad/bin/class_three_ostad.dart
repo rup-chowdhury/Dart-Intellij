@@ -86,4 +86,7 @@ main() {
   );
 
   print(maps);
+
+  print(maps.keys);
+  print(maps.values);
 }
