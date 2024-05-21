@@ -19,6 +19,6 @@ main() {
 
   print(studentList.length);
 
-  
+  print(studentList.first);
 
 }
