@@ -74,4 +74,16 @@ main() {
   maps.clear();
 
   print(maps);
+
+  maps[7] = 'Rup';
+
+  print(maps);
+  
+  maps.addAll({
+    32 : 'Shamim',
+    35 : 'Tamim'
+  }
+  );
+
+  print(maps);
 }
