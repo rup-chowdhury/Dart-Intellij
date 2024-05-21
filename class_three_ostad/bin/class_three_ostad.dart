@@ -1,5 +1,24 @@
-import 'package:class_three_ostad/class_three_ostad.dart' as class_three_ostad;
+main() {
+  List<String> studentList = ['Rahim', 'Karim'];
 
-void main(List<String> arguments) {
-  print('Hello world: ${class_three_ostad.calculate()}!');
+  print(studentList);
+
+  studentList.add('Jibon');
+
+  print(studentList);
+
+  studentList.addAll(['harun', 'rashid']);
+
+  print(studentList);
+
+  studentList.remove('Jibon');
+
+  print(studentList);
+
+  print(studentList[2]);
+
+  print(studentList.length);
+
+  
+
 }
