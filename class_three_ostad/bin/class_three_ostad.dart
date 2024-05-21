@@ -25,4 +25,8 @@ main() {
 
   print(studentList.elementAt(2));
 
+  studentList.insert(1, 'New element');
+
+  print(studentList);
+
 }
