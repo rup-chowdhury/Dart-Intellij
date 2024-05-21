@@ -23,6 +23,6 @@ main() {
 
   print(studentList.last);
 
-  
+  print(studentList.elementAt(2));
 
 }
