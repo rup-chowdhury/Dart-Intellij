@@ -62,4 +62,16 @@ main() {
   print(maps);
 
   print(maps[3]);
+
+  maps[3] = 'changed';
+
+  print(maps);
+
+  print(maps.length);
+
+  print(maps.containsValue('j'));
+
+  maps.clear();
+
+  print(maps);
 }
