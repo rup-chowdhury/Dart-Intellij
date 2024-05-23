@@ -1,5 +1,9 @@
-import 'package:constant/constant.dart' as constant;
+main() {
+  const String university = 'Notre Dame University Banggladesh';
 
-void main(List<String> arguments) {
-  print('Hello world: ${constant.calculate()}!');
+  const int age = 25;
+
+  const double pi = 3.1416;
+
+  final double gpa;
 }
