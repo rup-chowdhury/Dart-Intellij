@@ -6,4 +6,5 @@ main() {
   const double pi = 3.1416;
 
   final double gpa;
+  gpa = 3.76;
 }
