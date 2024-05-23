@@ -12,4 +12,13 @@ main() {
   print(cgpa);
   print(cgpa.runtimeType);
 
+  dynamic random = true;
+
+  print(random);
+  random = 3.1416;
+
+  print(random);
+
+
+
 }
