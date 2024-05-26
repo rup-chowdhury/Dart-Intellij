@@ -3,7 +3,9 @@ main(){
 
   if (age >= 21){
     print('Man');
-  } else {
+  } else if (age >=11) {
     print('Boy');
+  } else {
+    print('Baby Boy');
   }
 }
