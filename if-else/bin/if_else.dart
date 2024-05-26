@@ -10,9 +10,13 @@ main(){
   }
 
 
-  String userName = 'Chowdhury';
+  String userName = 'Rup';
 
   if (userName == 'Chowdhury' && age > 20){
     print('Username is $userName');
+  }
+
+  if (userName == 'Rup' || userName == 'Chowdhury'){
+    print('Username : $userName');
   }
 }
