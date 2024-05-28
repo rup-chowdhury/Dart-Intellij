@@ -27,7 +27,7 @@ void main(){
   ];
   
   for (int i = 0; i <= students.length; i++) {
-    print('Student $i  : ')
+    print('Student $i ');
   }
 
 }
