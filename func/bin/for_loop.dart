@@ -2,9 +2,9 @@ void main(){
 
   for (int loop = 0 ; loop <= 10 ; loop = loop+1){
     print(loop);
+  greeting();
   }
 
-  greeting();
 
 }
 
