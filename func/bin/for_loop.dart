@@ -4,6 +4,10 @@ void main(){
     if(loop == 5){
     continue;
     }
+
+    if(loop == 8){
+      break;
+    }
     print(loop);
     greeting();
   }
