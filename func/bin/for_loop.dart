@@ -1,6 +1,9 @@
 void main(){
 
-  for (int loop = 0 ; loop <= 10 ;) {
+  for (int loop = 0 ; loop <= 10 ; loop = loop+1){
+    if(loop == 5){
+    continue;
+    }
     print(loop);
     greeting();
   }
