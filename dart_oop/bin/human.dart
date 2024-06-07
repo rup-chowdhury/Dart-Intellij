@@ -5,11 +5,15 @@ void main(){
 
   // class-name instance-name = class-name()
 
-  Human rup = Human();
+  Human rup = Human('Ruplaal');
 
   rup.eating();
 
   rup.talking('Prapty');
+
+
+
+  Human rupl = Human('Ruplaaaaal');
 }
 
 class Human {
@@ -18,8 +22,8 @@ class Human {
   int age = 25;
   String address = 'Kamalapur';
 
-  Human(){
-    print('Creating a Human');
+  Human(String name){
+    print('Creating a Human named $name');
   }
 
   void moving(){
