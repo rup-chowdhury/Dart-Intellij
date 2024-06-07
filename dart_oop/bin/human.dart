@@ -6,6 +6,10 @@ void main(){
   // class-name instance-name = class-name()
 
   Human rup = Human();
+
+  rup.eating();
+  
+  rup.talking('Prapty');
 }
 
 class Human {
