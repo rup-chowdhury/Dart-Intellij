@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/class_four_ostad/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/class_four_ostad/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/class_four_ostad/build" />
+      <excludeFolder url="file://$MODULE_DIR$/class_three_ostad/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/class_three_ostad/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/class_three_ostad/build" />
+      <excludeFolder url="file://$MODULE_DIR$/class_two_ostad/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/class_two_ostad/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/class_two_ostad/build" />
+      <excludeFolder url="file://$MODULE_DIR$/constant/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/constant/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/constant/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_practice/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_practice/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_practice/build" />
+      <excludeFolder url="file://$MODULE_DIR$/func/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/func/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/func/build" />
+      <excludeFolder url="file://$MODULE_DIR$/if-else/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/if-else/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/if-else/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+  </component>
+</module>
