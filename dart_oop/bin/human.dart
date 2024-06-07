@@ -14,6 +14,14 @@ class Human {
   String address = 'Kamalapur';
 
   void moving(){
-    
+    print('$name is eating');
+  }
+
+  void eating(){
+    print('$name is eating');
+  }
+
+  void talking(String talkingWith){
+    print('$name is talking with $talkingWith' );
   }
 }
