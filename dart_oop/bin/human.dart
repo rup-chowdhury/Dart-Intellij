@@ -8,14 +8,19 @@ void main(){
   Human rup = Human();
 
   rup.eating();
-  
+
   rup.talking('Prapty');
 }
 
 class Human {
+
   String name = 'Rup';
   int age = 25;
   String address = 'Kamalapur';
+
+  Human(){
+    print('Creating a Human');
+  }
 
   void moving(){
     print('$name is eating');
