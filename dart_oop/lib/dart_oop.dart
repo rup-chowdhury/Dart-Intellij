@@ -1,4 +1,4 @@
 
-int calculate() {
-  return ((6 * 7)  % 5);
+double calculate() {
+  return ((6 * 7)  / 5);
 }
