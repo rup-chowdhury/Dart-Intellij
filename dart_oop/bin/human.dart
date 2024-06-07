@@ -1,14 +1,19 @@
 void main(){
+  // data-type variable-name
+
+  //class - human
+
+  // class-name instance-name = class-name()
+
+  Human rup = Human();
+}
+
+class Human {
   String name = 'Rup';
   int age = 25;
   String address = 'Kamalapur';
 
-
-  String name2 = 'Ruplaal';
-  int age2 = 45;
-  String address2 = 'Kamalapur';
-}
-
-class Human {
-
+  void moving(){
+    
+  }
 }
