@@ -20,7 +20,6 @@ class Eagle extends Bird{
 }
 
 main(){
-  print('Inheritance');
 
   Parrot p = Parrot();
 
