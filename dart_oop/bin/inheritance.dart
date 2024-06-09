@@ -20,6 +20,7 @@ class Eagle extends Bird{
   }
 }
 
+// Note - Dart doesn't support multiple inheritance because it creates complexity in the program.
 
 main(){
   print('Inheritance');
