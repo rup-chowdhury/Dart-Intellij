@@ -24,10 +24,14 @@ class Eagle extends Bird{
 main(){
   print('Inheritance');
 
-  Parrot p = Parrot();  
+  Parrot p = Parrot();
 
   p.fly();
 
   p.speak();
+
+  Eagle e = Eagle();
+
+  e.vision();
 
 }
