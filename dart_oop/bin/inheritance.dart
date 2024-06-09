@@ -15,14 +15,16 @@ class Parrot extends Bird{
 // Multi level inheritance\
 
 class Eagle extends Bird{
-  
+  void vision(){
+    print('Eagle has a sharp vision');
+  }
 }
 
 
 main(){
   print('Inheritance');
 
-  Parrot p = Parrot();
+  Parrot p = Parrot();  
 
   p.fly();
 
