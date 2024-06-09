@@ -13,7 +13,7 @@ class Parrot extends Bird{
 main(){
   print('Inheritance');
 
-  Parrot p = Parrot();
+  Parrot p = new Parrot();
 
-  
+
 }
