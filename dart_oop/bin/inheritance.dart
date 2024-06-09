@@ -5,7 +5,9 @@ class Bird{
 }
 
 class Parrot extends Bird{
-  
+  void speak(){
+    print('Parrot can talk');
+  }
 }
 
 main(){
