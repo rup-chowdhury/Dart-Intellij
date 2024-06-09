@@ -4,7 +4,9 @@ class Bird{
   }
 }
 
+class Parrot{
 
+}
 
 main(){
   print('Inheritance');
