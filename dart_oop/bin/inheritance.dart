@@ -4,8 +4,8 @@ class Bird{
   }
 }
 
-class Parrot{
-
+class Parrot extends Bird{
+  
 }
 
 main(){
