@@ -7,5 +7,5 @@ class Bird{
 main(){
   print('Inheritance');
 
-  Bird();
+  Bird().fly();
 }
