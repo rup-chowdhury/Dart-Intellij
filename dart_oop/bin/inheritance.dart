@@ -12,6 +12,13 @@ class Parrot extends Bird{
   }
 }
 
+// Multi level inheritance\
+
+class Eagle extends Bird{
+  
+}
+
+
 main(){
   print('Inheritance');
 
