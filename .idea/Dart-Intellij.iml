@@ -24,9 +24,13 @@
       <excludeFolder url="file://$MODULE_DIR$/if-else/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/if-else/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/if-else/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_oop/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_oop/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_oop/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
