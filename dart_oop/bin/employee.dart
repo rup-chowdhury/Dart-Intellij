@@ -13,5 +13,18 @@ abstract class Employee {
 }
 
 class SoftwareEngineer {
-  void att
+  @override
+  void attendMeeting() {
+    print('Attending Stand up Meeting');
+  }
+
+  @override
+  void formalDressUp() {
+    print('Wearing Formal Dress');
+  }
+
+  @override
+  void work() {
+    print('');
+  }
 }
