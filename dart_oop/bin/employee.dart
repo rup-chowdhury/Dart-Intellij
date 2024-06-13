@@ -12,7 +12,7 @@ abstract class Employee {
   }
 }
 
-class SoftwareEngineer {
+class SoftwareEngineer implements Employee {
   @override
   void attendMeeting() {
     print('Attending Stand up Meeting');
@@ -27,4 +27,11 @@ class SoftwareEngineer {
   void work() {
     print('');
   }
+
+  @override
+  void goToOffice() {
+    // TODO: implement goToOffice
+  }
 }
+
+
