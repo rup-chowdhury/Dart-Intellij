@@ -23,3 +23,7 @@ class Rup extends Person {
     print(result);
   }
 }
+
+void main(){
+  
+}
