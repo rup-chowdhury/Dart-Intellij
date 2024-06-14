@@ -11,7 +11,7 @@ class Person {
 
 class Peter extends Person {
 
-  void dispBrach(String nationality){
+  void dispBranch(String nationality){
     print(nationality);
   }
 }
@@ -36,5 +36,5 @@ void main(){
   Peter p = new Peter();
   p.dispName('Peter');
   p.dispAge(22);
-  p.dispBrach('Computer Science');
+  p.dispBranch('Computer Science');
 }
