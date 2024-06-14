@@ -32,4 +32,9 @@ void main(){
   r.dispAge(25);
   r.result('Passed');
 
+  //Object of Peter class
+  Peter p = new Peter();
+  p.dispName('Peter');
+  p.dispAge(22);
+  p.dispBrach('Computer Science');
 }
