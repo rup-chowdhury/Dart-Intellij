@@ -25,5 +25,11 @@ class Rup extends Person {
 }
 
 void main(){
-  
+
+  //Object of James class
+  Rup r = new Rup();
+  r.dispName('Rup');
+  r.dispAge(25);
+  r.result('Passed');
+
 }
