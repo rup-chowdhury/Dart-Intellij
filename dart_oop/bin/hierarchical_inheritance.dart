@@ -20,6 +20,6 @@ class Peter extends Person {
 
 class Rup extends Person {
   void result(String result){
-    
+    print(result);
   }
 }
