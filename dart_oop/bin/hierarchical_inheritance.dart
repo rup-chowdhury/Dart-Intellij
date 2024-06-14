@@ -16,4 +16,10 @@ class Peter extends Person {
   }
 }
 
-//Derived class created from another derived class 
+//Derived class created from another derived class
+
+class Rup extends Person {
+  void result(String result){
+    
+  }
+}
