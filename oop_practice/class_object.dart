@@ -6,5 +6,12 @@ class Monitor{
 }
 
 void main(){
+  Monitor myMonitor = Monitor();
 
+  print(myMonitor.companyName);
+  print(myMonitor.model);
+
+  Monitor anikMonitor = Monitor();
+
+  anikMonitor
 }
