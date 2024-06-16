@@ -23,4 +23,6 @@ void main(){
 
   rupMonitor.companyName = 'Chinese';
   rupMonitor.model = 'Unknown';
+
+  print(rupMonitor.companyName);
 }
