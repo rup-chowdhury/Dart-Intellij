@@ -18,4 +18,6 @@ void main(){
 
   print(anikMonitor.companyName);
   print(anikMonitor.model);
+
+  Monitor rupMonitor = Monitor();
 }
