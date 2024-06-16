@@ -1,6 +1,7 @@
 // class <name-of-class> {}
 
 class Monitor{
+  // Attribute / properties
   String companyName = 'LG';
   String model = 'K300';
 }
