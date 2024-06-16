@@ -17,11 +17,13 @@ void main(){
 
   print(myMonitor.companyName);
   print(myMonitor.model);
+  myMonitor.printScreenSize();
 
   Monitor anikMonitor = Monitor();
 
   anikMonitor.companyName = 'Samsung';
   anikMonitor.model = 'A7';
+
 
   print(anikMonitor.companyName);
   print(anikMonitor.model);
