@@ -13,5 +13,9 @@ void main(){
 
   Monitor anikMonitor = Monitor();
 
-  anikMonitor
+  anikMonitor.companyName = 'Samsung';
+  anikMonitor.model = 'A7';
+
+  print(anikMonitor.companyName);
+  print(anikMonitor.model);
 }
