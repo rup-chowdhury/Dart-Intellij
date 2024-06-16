@@ -25,4 +25,5 @@ void main(){
   rupMonitor.model = 'Unknown';
 
   print(rupMonitor.companyName);
+  print(rupMonitor.model);
 }
