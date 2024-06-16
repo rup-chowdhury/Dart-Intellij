@@ -20,4 +20,6 @@ void main(){
   print(anikMonitor.model);
 
   Monitor rupMonitor = Monitor();
+
+  rupMonitor.companyName = 'Chinese';
 }
