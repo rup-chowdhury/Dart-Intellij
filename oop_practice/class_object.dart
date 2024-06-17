@@ -8,8 +8,10 @@ class Monitor{
   String _internalHardwareNumber = '4554uubse';
 
   // Constructor
-  Monitor(){
+  Monitor(String companyName, String model){
     print('Object Created');
+    print(companyName);
+    print(model);
   }
 
   //method
