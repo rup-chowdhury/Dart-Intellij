@@ -9,7 +9,7 @@ class Monitor{
 
   // Constructor
   Monitor(){
-
+    print('Object Created');
   }
 
   //method
