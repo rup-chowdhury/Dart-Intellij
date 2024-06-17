@@ -1,3 +1,5 @@
+import 'class_object.dart';
+
 void main(){
   Monitor myMonitor = Monitor();
 
