@@ -11,4 +11,8 @@ class Monitor{
   void printScreenSize(){
     print(screenSize);
   }
+  
+  int _calculatePixels(){
+    return 1080*720;
+  }
 }
