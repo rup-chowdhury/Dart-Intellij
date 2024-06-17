@@ -23,5 +23,5 @@ void main(){
 
   print(rupMonitor.companyName);
   print(rupMonitor.model);
-  print(rupMonitor._internalHardwareNumber);
+  // print(rupMonitor._internalHardwareNumber);
 }
