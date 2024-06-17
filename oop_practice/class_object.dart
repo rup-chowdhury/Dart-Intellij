@@ -7,6 +7,11 @@ class Monitor{
   String screenSize = '17';
   String _internalHardwareNumber = '4554uubse';
 
+  // Constructor
+  Monitor(){
+
+  }
+
   //method
   void printScreenSize(){
     print(screenSize);
