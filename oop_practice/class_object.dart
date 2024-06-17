@@ -5,6 +5,7 @@ class Monitor{
   String companyName = 'LG';
   String model = 'K300';
   String screenSize = '17';
+  String _internalHardwareNumber = '4554uubse';
 
   //method
   void printScreenSize(){
@@ -35,4 +36,5 @@ void main(){
 
   print(rupMonitor.companyName);
   print(rupMonitor.model);
+  print(rupMonitor._internalHardwareNumber);
 }
