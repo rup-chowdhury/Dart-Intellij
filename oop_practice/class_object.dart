@@ -2,16 +2,16 @@
 
 class Monitor{
   // Attribute / properties
-  String companyName = 'LG';
-  String model = 'K300';
+  String companyName = '';
+  String model = '';
   String screenSize = '17';
   String _internalHardwareNumber = '4554uubse';
 
   // Constructor
   Monitor(String companyName, String model){
     print('Object Created');
-    print(companyName);
-    print(model);
+    this.companyName = companyName;
+    this.model = model;
   }
 
   //method
