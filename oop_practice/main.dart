@@ -22,4 +22,6 @@ void main(){
   // print(rupMonitor._internalHardwareNumber);
 
   print(rupMonitor.deviceType);
+  
+  print(Monitor.sample);
 }
