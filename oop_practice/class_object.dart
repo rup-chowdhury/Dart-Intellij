@@ -1,6 +1,9 @@
 // class <name-of-class> {}
 
 class Monitor{
+
+  static String sample = "Sample Data";
+
   // Attribute / properties
   final String deviceType = 'Monitor';
   String companyName = '';
