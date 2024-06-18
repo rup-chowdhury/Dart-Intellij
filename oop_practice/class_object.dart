@@ -2,6 +2,7 @@
 
 class Monitor{
   // Attribute / properties
+  final String deviceType = 'Monitor';
   String companyName = '';
   String model = '';
   String screenSize = '17';
