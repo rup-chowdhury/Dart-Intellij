@@ -20,4 +20,6 @@ void main(){
   rupMonitor.model = 'Known';
   print(rupMonitor.model);
   // print(rupMonitor._internalHardwareNumber);
+
+  print(rupMonitor.deviceType);
 }
