@@ -27,7 +27,7 @@ class Monitor{
     return 1080*720;
   }
 
-  String getSampleData(){
+  static String getSampleData(){
     return 'Sample String';
   }
 }
