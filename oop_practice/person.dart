@@ -3,7 +3,7 @@ class Person {
   String address = '';
   int age = 0;
 
-  Person(String name, String address, int age){
+  Person({required String name, required String address, required int age}){
     this.name = name;
     this.address = address;
     this.age = age;
