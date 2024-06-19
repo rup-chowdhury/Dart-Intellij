@@ -8,4 +8,8 @@ class Person {
     this.address = address;
     this.age = age;
   }
+
+  void printName(){
+    print(name);
+  }
 }
