@@ -29,7 +29,7 @@ void main(){
   // Monitor.getSampleData();
 
 
-  Person rup = Person('Rup Chowdhury', 'Dhaka, Bangladesh', 25);
+  Person rup = Person(name: 'Rup Chowdhury', address: 'Dhaka, Bangladesh', age: 25);
   rup.printName();
 
 
