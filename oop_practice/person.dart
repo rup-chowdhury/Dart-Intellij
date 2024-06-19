@@ -1,7 +1,7 @@
 class Person {
-  String name;
-  String address;
-  int age;
+  String name = '';
+  String address = '';
+  int age = 0;
 
   Person(String name, String address, int age){
     this.name = name;
