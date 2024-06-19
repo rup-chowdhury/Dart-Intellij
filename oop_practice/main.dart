@@ -24,4 +24,6 @@ void main(){
   print(rupMonitor.deviceType);
   
   print(Monitor.sample);
+
+  Monitor.getSampleData();
 }
