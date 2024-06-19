@@ -26,4 +26,8 @@ class Monitor{
   int _calculatePixels(){
     return 1080*720;
   }
+
+  String getSampleData(){
+    return 'Sample String';
+  }
 }
