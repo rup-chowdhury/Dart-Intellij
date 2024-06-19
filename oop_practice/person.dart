@@ -3,5 +3,7 @@ class Person {
   String address;
   int age;
 
-  
+  Person(String name, String address, int age){
+    
+  }
 }
