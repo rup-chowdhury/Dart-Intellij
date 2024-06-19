@@ -28,6 +28,7 @@ class Monitor{
   }
 
   static String getSampleData(){
+    print('Sample String');
     return 'Sample String';
   }
 }
