@@ -36,5 +36,5 @@ void main(){
 
   Person two = Person(name: 'Jonayet Haque', address: 'Narsingdi', age: 27);
   rup.printName();
-  rup.printAddress()
+  rup.printAddress();
 }
