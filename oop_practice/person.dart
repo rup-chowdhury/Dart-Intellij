@@ -14,6 +14,10 @@ class Person {
   }
 
   void printAddress(){
+
+  }
+
+  void printAge(){
     
   }
 }
