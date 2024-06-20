@@ -18,6 +18,6 @@ class Person {
   }
 
   void printAge(){
-    
+    print(age);
   }
 }
