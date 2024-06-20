@@ -32,11 +32,5 @@ void main(){
   Person rup = Person(name: 'Rup Chowdhury', address: 'Dhaka, Bangladesh', age: 25);
   rup.printName();
   rup.printAddress();
-
-
-
-
-
-
-
+  rup.printAge();
 }
