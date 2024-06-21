@@ -38,4 +38,6 @@ void main(){
   two.printName();
   two.printAddress();
   two.printAge();
+
+  Person
 }
