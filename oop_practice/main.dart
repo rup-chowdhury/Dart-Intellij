@@ -41,6 +41,6 @@ void main(){
 
   Person three = Person(name: 'Prapti Das', address: 'Old Dhaka', age: 24);
   three.printName();
-  three.printName();
+  three.printAddress();
   three.printAge();
 }
