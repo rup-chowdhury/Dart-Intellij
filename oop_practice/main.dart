@@ -44,5 +44,5 @@ void main(){
   three.printAddress();
   three.printAge();
 
-  Person four 
+  Person four = Person(name: name, address: address, age: age)
 }
