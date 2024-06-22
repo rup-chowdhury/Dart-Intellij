@@ -43,4 +43,6 @@ void main(){
   three.printName();
   three.printAddress();
   three.printAge();
+
+  Person
 }
