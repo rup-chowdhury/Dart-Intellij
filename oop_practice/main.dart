@@ -44,5 +44,6 @@ void main(){
   three.printAddress();
   three.printAge();
 
-  Person four = Person(name: 'Tasin Rahman', address: 'Old Dhaka', age: 29)
+  Person four = Person(name: 'Tasin Rahman', address: 'Old Dhaka', age: 29);
+  four.printName()
 }
