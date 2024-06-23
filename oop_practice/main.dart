@@ -48,4 +48,6 @@ void main(){
   four.printName();
   four.printAddress();
   four.printAge();
+
+  Person
 }
