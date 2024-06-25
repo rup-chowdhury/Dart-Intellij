@@ -56,4 +56,5 @@ void main(){
 
   Person six = Person();
   six.printName();
+  six.printAddress();
 }
