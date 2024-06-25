@@ -54,5 +54,5 @@ void main(){
   five.printAddress();
   five.printAge();
 
-  Person six =
+  Person six = Person
 }
