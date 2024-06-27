@@ -54,7 +54,7 @@ void main(){
   five.printAddress();
   five.printAge();
 
-  Person six = Person();
+  Person six = Person(name: );
   six.printName();
   six.printAddress();
   six.printAge();
