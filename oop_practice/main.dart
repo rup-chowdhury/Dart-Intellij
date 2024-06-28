@@ -49,7 +49,5 @@ void main(){
   four.printAddress();
   four.printAge();
 
-  Person five = Person(name: 'Anik', address: 'Tangail', age: 25);
-  
 
 }
