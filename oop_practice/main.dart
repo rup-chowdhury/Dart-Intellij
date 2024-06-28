@@ -55,6 +55,4 @@ void main(){
   five.printAge();
 
   Person six = Person(name: 'Promita', address: 'Old Dhaka', age: 23);
-  six.printName();
-  
 }
