@@ -45,9 +45,6 @@ void main(){
   three.printAge();
 
   Person four = Person(name: 'Tasin Rahman', address: 'Old Dhaka', age: 29);
-  four.printName();
-  four.printAddress();
-  four.printAge();
 
 
 }
