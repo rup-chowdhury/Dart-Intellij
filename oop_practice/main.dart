@@ -39,5 +39,5 @@ void main(){
   two.printAddress();
   two.printAge();
 
-  Person three = Person(name: 'Tasin', address: 'Old Dhaka', age: 28)
+  Person three = Person(name: 'Tasin', address: 'Old Dhaka', age: 28);
 }
