@@ -42,4 +42,5 @@ void main(){
   Person three = Person(name: 'Tasin', address: 'Old Dhaka', age: 28);
   three.printName();
   three.printAddress();
+  three
 }
