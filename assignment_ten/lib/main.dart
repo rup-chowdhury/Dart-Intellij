@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'dart:ui';
 
-import 'package:riv';
+
 
 void main(){
   runApp(MainApp());
