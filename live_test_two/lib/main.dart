@@ -28,8 +28,15 @@ class Home extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Text("Flutter Text Styling"),
-          Text("Experiment with text styles")
+          Text("Flutter Text Styling",
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold
+          ),),
+          Text("Experiment with text styles",
+          style: TextStyle(
+            fontStyle: FontStyle.italic,
+          ),)
         ],
       ),
     );
