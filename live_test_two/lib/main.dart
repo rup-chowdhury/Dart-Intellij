@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: " Assignment Ten",
+      title: " Live test two",
       home: Home(),
     );
   }
@@ -22,6 +22,16 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Text Styling App"),
+      ),
+      body: Column(
+        children: [
+          Text("Flutter Text Styling"),
+          Text("Experiment with text styles")
+        ],
+      ),
+    );
   }
 }
