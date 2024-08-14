@@ -38,7 +38,17 @@ class Home extends StatelessWidget {
             Text("Experiment with text styles",
             style: TextStyle(
               fontStyle: FontStyle.italic,
-            ),)
+            ),),
+            TextButton(onPressed: (){
+              final snackBar = SnackBar(
+                  content: Text("You clicked the button!"));
+              ScaffoldMessenger.of(context).showSnackBar(snackBar);
+            }, child: Text("Click Me")),
+            Row(
+              children: [
+                Text("")
+              ],
+            )
           ],
         ),
       ),
