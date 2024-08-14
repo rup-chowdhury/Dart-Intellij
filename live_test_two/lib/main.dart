@@ -45,8 +45,18 @@ class Home extends StatelessWidget {
               ScaffoldMessenger.of(context).showSnackBar(snackBar);
             }, child: Text("Click Me")),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("")
+                Text("Welcome to ",
+                style: TextStyle(
+                  fontSize: 16
+                ),),
+                Text("Flutter!",
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.blue
+                ),)
               ],
             )
           ],
