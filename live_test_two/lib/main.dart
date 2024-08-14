@@ -26,18 +26,21 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text("Text Styling App"),
       ),
-      body: Column(
-        children: [
-          Text("Flutter Text Styling",
-          style: TextStyle(
-            fontSize: 22,
-            fontWeight: FontWeight.bold
-          ),),
-          Text("Experiment with text styles",
-          style: TextStyle(
-            fontStyle: FontStyle.italic,
-          ),)
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("Flutter Text Styling",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold
+            ),),
+            Text("Experiment with text styles",
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+            ),)
+          ],
+        ),
       ),
     );
   }
