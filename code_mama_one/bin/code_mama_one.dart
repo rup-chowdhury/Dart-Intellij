@@ -16,13 +16,13 @@ void main() {
 
   if(possibleCarsF != null && possibleCarsC != null && possibleCarsW != null){
 
-  if(possibleCarsW < possibleCarsC && possibleCarsW < possibleCarsF){
-    N = possibleCarsW;
-  } else if(possibleCarsC < possibleCarsW && possibleCarsC < possibleCarsF){
-    N = possibleCarsC;
-  } else {
-    N = possibleCarsF;
-  }
+    if(possibleCarsW < possibleCarsC && possibleCarsW < possibleCarsF){
+      N = possibleCarsW;
+    } else if(possibleCarsC < possibleCarsW && possibleCarsC < possibleCarsF){
+      N = possibleCarsC;
+    } else {
+      N = possibleCarsF;
+    }
   }
 
   print(N);
