@@ -2,9 +2,14 @@ import 'dart:io';
 
 void main() {
   int? N = 0;
-  int? wheels = int.parse(stdin.readLineSync()!);
-  int? carBody = int.parse(stdin.readLineSync()!);
-  int? figures = int.parse(stdin.readLineSync()!);
+  String input = stdin.readLineSync()!;
+
+
+  List<String> numbers = input.split(' ');
+
+  int? wheels = int.parse(numbers[0]);
+  int? carBody = int.parse(numbers[1]);
+  int? figures = int.parse(numbers[2]);
 
   int W = 4;
   int C = 1;
@@ -14,8 +19,6 @@ void main() {
   int possibleCarsC = (carBody ~/ C);
   int possibleCarsF = (figures ~/ F);
 
-  if(possibleCarsF != null && possibleCarsC != null && possibleCarsW != null){
-
     if(possibleCarsW < possibleCarsC && possibleCarsW < possibleCarsF){
       N = possibleCarsW;
     } else if(possibleCarsC < possibleCarsW && possibleCarsC < possibleCarsF){
@@ -23,7 +26,6 @@ void main() {
     } else {
       N = possibleCarsF;
     }
-  }
 
   print(N);
 }
