@@ -10,9 +10,12 @@ void main(){
     // print(data[i]);
     for(int j = 0 ; j < data.length ; j++){
       // print(data[j]);
-    if(i != j && j != i && data[i] == data[j]){
-      print(data[j]);
+
+    if(i != j && j != i && data[i] == data[j] ){
+        print(data[j]);
+
       }
     }
+    break;
   }
 }
