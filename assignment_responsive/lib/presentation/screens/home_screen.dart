@@ -168,71 +168,67 @@ class _HomeScreenState extends State<HomeScreen> {
                         )
                       ],
                     ),
-                    Row(
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            SizedBox(
-                              height: 120,
+                        SizedBox(
+                          height: 120,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 50.0),
+                          child: Text(
+                            "FLUTTER WEB.",
+                            style: TextStyle(
+                              fontSize: 60,
+                              fontWeight: FontWeight.w900,
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 50.0),
-                              child: Text(
-                                "FLUTTER WEB.",
-                                style: TextStyle(
-                                  fontSize: 60,
-                                  fontWeight: FontWeight.w900,
-                                ),
-                              ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 50.0),
+                          child: Text(
+                            "THE BASICS",
+                            style: TextStyle(
+                              fontSize: 60,
+                              fontWeight: FontWeight.w900,
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 50.0),
-                              child: Text(
-                                "THE BASICS",
-                                style: TextStyle(
-                                  fontSize: 60,
-                                  fontWeight: FontWeight.w900,
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              height: 12,
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 50),
-                              child: Container(
-                                width: 350,
-                                child: Text(
-                                  "In this course we will go over the basics of using Flutter Web for development. Topics will include Responsive Layout, Deploying, Font Changes, Hover functionality, Modals and more.",
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                      fontWeight: FontWeight.w600
-                                  ),
-                                ),
-                              ),
-                            ),
-
-                          ],
+                          ),
                         ),
                         SizedBox(
-                          width: 150,
+                          height: 12,
                         ),
-                        CupertinoButton(
-                            minSize: 50,
-                            padding: EdgeInsets.only(left: 80, right: 80),
-                            color: Colors.greenAccent[400],
+                        Padding(
+                          padding: const EdgeInsets.only(left: 50),
+                          child: Container(
+                            width: 350,
                             child: Text(
-                              "Join Course",
+                              "In this course we will go over the basics of using Flutter Web for development. Topics will include Responsive Layout, Deploying, Font Changes, Hover functionality, Modals and more.",
+                              textAlign: TextAlign.center,
                               style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.w900,
-                                  letterSpacing: 0.7),
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
-                            onPressed: () {})
+                          ),
+                        ),
+
                       ],
                     ),
+                    SizedBox(
+                      height: 70,
+                    ),
+                    CupertinoButton(
+                        minSize: 50,
+                        padding: EdgeInsets.only(left: 80, right: 80),
+                        color: Colors.greenAccent[400],
+                        child: Text(
+                          "Join Course",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w900,
+                              letterSpacing: 0.7),
+                        ),
+                        onPressed: () {}),
                   ],
                 ),
               ),
