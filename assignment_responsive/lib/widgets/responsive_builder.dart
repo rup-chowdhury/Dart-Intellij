@@ -6,10 +6,10 @@ class ResponsiveBuilder extends StatelessWidget {
     super.key,
     required this.mobile,
     required this.desktop,
-    this.tablet,
+    required this.tablet,
   });
   final Widget mobile;
-  final Widget? tablet;
+  final Widget tablet;
   final Widget desktop;
 
   @override

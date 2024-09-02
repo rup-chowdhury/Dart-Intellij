@@ -17,7 +17,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
     return Scaffold(
-        body: ResponsiveBuilder(mobile: Container(
+        body: ResponsiveBuilder(
+
+            mobile: Container(
           height: mediaQueryData.size.height,
           width: mediaQueryData.size.width,
           child: SafeArea(
@@ -118,6 +120,124 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
 
+            tablet: Container(
+              height: mediaQueryData.size.height,
+              width: mediaQueryData.size.width,
+              child: SafeArea(
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 35,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(50.0),
+                          child: Text(
+                            "HUMMING \nBIRD .",
+                            textAlign: TextAlign.left,
+                            style:
+                            TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
+                          ),
+                        ),
+
+                        SizedBox(
+                          width: 400,
+                        ),
+
+                        Padding(
+                          padding: const EdgeInsets.all(50.0),
+                          child: Text(
+                            "Episodes",
+                            textAlign: TextAlign.left,
+                            style:
+                            TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: const EdgeInsets.all(50.0),
+                          child: Text(
+                            "About",
+                            textAlign: TextAlign.left,
+                            style:
+                            TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
+                          ),
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            SizedBox(
+                              height: 120,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50.0),
+                              child: Text(
+                                "FLUTTER WEB.",
+                                style: TextStyle(
+                                  fontSize: 60,
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50.0),
+                              child: Text(
+                                "THE BASICS",
+                                style: TextStyle(
+                                  fontSize: 60,
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 12,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50),
+                              child: Container(
+                                width: 350,
+                                child: Text(
+                                  "In this course we will go over the basics of using Flutter Web for development. Topics will include Responsive Layout, Deploying, Font Changes, Hover functionality, Modals and more.",
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.w600
+                                  ),
+                                ),
+                              ),
+                            ),
+
+                          ],
+                        ),
+                        SizedBox(
+                          width: 150,
+                        ),
+                        CupertinoButton(
+                            minSize: 50,
+                            padding: EdgeInsets.only(left: 80, right: 80),
+                            color: Colors.greenAccent[400],
+                            child: Text(
+                              "Join Course",
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w900,
+                                  letterSpacing: 0.7),
+                            ),
+                            onPressed: () {})
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
 
 
 
@@ -138,9 +258,33 @@ class _HomeScreenState extends State<HomeScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Padding(
-                          padding: const EdgeInsets.all(30.0),
+                          padding: const EdgeInsets.all(50.0),
                           child: Text(
                             "HUMMING \nBIRD .",
+                            textAlign: TextAlign.left,
+                            style:
+                            TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
+                          ),
+                        ),
+
+                        SizedBox(
+                          width: 900,
+                        ),
+
+                        Padding(
+                          padding: const EdgeInsets.all(50.0),
+                          child: Text(
+                            "Episodes",
+                            textAlign: TextAlign.left,
+                            style:
+                            TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: const EdgeInsets.all(50.0),
+                          child: Text(
+                            "About",
                             textAlign: TextAlign.left,
                             style:
                             TextStyle(fontSize: 16, fontWeight: FontWeight.w900),
@@ -148,45 +292,56 @@ class _HomeScreenState extends State<HomeScreen> {
                         )
                       ],
                     ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                    Row(
                       children: [
-                        SizedBox(
-                          height: 120,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 30.0),
-                          child: Text(
-                            "FLUTTER WEB.",
-                            style: TextStyle(
-                              fontSize: 60,
-                              fontWeight: FontWeight.w900,
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            SizedBox(
+                              height: 120,
                             ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 30.0),
-                          child: Text(
-                            "THE BASICS",
-                            style: TextStyle(
-                              fontSize: 60,
-                              fontWeight: FontWeight.w900,
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50.0),
+                              child: Text(
+                                "FLUTTER WEB.",
+                                style: TextStyle(
+                                  fontSize: 60,
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
                             ),
-                          ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50.0),
+                              child: Text(
+                                "THE BASICS",
+                                style: TextStyle(
+                                  fontSize: 60,
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 12,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 50),
+                              child: Container(
+                                width: 350,
+                                child: Text(
+                                  "In this course we will go over the basics of using Flutter Web for development. Topics will include Responsive Layout, Deploying, Font Changes, Hover functionality, Modals and more.",
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600
+                                  ),
+                                ),
+                              ),
+                            ),
+
+                          ],
                         ),
                         SizedBox(
-                          height: 12,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left: 30, right: 800),
-                          child: Text(
-                            "In this course we will go over the basics of using Flutter Web for development. Topics will include Responsive Layout, Deploying, Font Changes, Hover functionality, Modals and more.",
-                            textAlign: TextAlign.left,
-                          ),
-                        ),
-                        SizedBox(
-                          height: 55,
+                          width: 600,
                         ),
                         CupertinoButton(
                             minSize: 50,
