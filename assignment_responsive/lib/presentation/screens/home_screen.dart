@@ -13,13 +13,6 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     MediaQueryData mediaQueryData = MediaQuery.of(context);
     return Scaffold(
-        // appBar: AppBar(
-        //   title: Text("HUMMING BIRD", textAlign: TextAlign.right,),
-        // ),
-        // drawer: Drawer(
-        //
-        // ),
-
         body: Container(
           height: mediaQueryData.size.height,
           width: mediaQueryData.size.width,
