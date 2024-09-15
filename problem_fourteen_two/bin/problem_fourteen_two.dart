@@ -1,6 +1,7 @@
-import "dart:io";
+import 'dart:io';
 
-void main(){
+void main() {
+  // Write your dart code from here
   String input = stdin.readLineSync()!;
 
   for(int i = 0; i < input.length; i++){
@@ -10,4 +11,5 @@ void main(){
       stdout.write(input[i]);
     }
   }
+
 }
